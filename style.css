@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    padding: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 40%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: black;
+}
