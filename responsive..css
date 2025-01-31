@@ -1,0 +1,102 @@
+@media screen and (max-width: 376px) {
+    section {
+        margin-bottom: 5px !important;
+    }
+    .fa-bars {
+        display: flex;
+    }
+    .nav-list ul {
+        display: none;
+    }
+    .banner-section {
+        flex-direction: column;
+        padding: 0px 0px;
+        
+    }
+    .banner{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    .banner-logo {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .banner-logo img {
+        height: 250px; 
+    }
+    .buy-now {
+        font-size: 14px;
+        padding: 8px 15px;
+        margin: 15px auto;
+    }
+    .jacket-section h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .jacket {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .jacket-card {
+        width: 100%;
+        max-width: 320px;
+    }
+    .shopping-section {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .content {
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+        flex-direction: column;
+        padding: 7px;
+        text-align: center;
+    }
+    .item-img img{
+        height: 25px;
+    }
+    .icon img{
+        width: 100%;
+        height: auto;
+    }
+    .item-home{
+        width: 100%;
+    }
+    .icon{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    section{
+        margin-bottom: 10px !important;
+
+    }
+    .fa-bars{
+        display: none;
+    }
+    .nav-list ul{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-section{
+        flex-direction: row;
+        padding: 10px 20px;
+    }
+    .banner{
+        width: 100%;
+    }
+ }

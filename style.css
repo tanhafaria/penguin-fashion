@@ -43,6 +43,10 @@ section {
     text-decoration: none;
     color: black;
 }
+
+.fa-bars {
+    display: none;
+}
 .banner h1{
     color: #FABE4C;
     font-size: 35px;
@@ -51,9 +55,7 @@ section {
 }
 .banner-section{
     display: flex;
-    padding: 50px 0px;
-    
-    
+    padding: 50px 0px;  
 }
 .banner{
     width: 33%;
